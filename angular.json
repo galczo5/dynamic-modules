@@ -44,6 +44,9 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
+              "lazyModules": [
+                "./src/app/lazy/lazy.module"
+              ],
               "budgets": [
                 {
                   "type": "initial",
